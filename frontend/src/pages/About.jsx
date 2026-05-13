@@ -27,25 +27,113 @@ const About = () => {
   return (
     <div style={containerStyle}>
       <img
-        src="/dp.jpg"
-        alt="@theshivanshvasu"
-        style={{ width: '180px', height: '180px', borderRadius: '50%', objectFit: 'cover', border: '4px solid #f97316', marginBottom: '20px', boxShadow: '0 4px 20px rgba(249, 115, 22, 0.4)' }}
+        src="/dp.jpeg"
+        alt="Mohit Yadav"
+        style={{
+          width: '180px',
+          height: '180px',
+          borderRadius: '50%',
+          objectFit: 'cover',
+          border: '4px solid #f97316',
+          marginBottom: '20px',
+          boxShadow: '0 4px 20px rgba(249, 115, 22, 0.4)'
+        }}
       />
-      <h2 style={{ fontSize: '2.5rem', marginBottom: '10px', color: '#fff' }}>About Me</h2>
-      <h3 style={{ fontSize: '1.5rem', color: '#f97316', marginBottom: '15px' }}>Shivansh Vasu (@theshivanshvasu)</h3>
 
-      <p style={{ color: '#a1a1aa', fontSize: '1.2rem', lineHeight: '1.8', maxWidth: '600px', margin: '0 auto 30px auto' }}>
-        <strong>Join the community and grow together!</strong> Welcome to my platform where we build, deploy, and scale highly engineered systems.
+      <h2
+        style={{
+          fontSize: '2.5rem',
+          marginBottom: '10px',
+          color: '#fff'
+        }}
+      >
+        About Me
+      </h2>
+
+      <h3
+        style={{
+          fontSize: '1.5rem',
+          color: '#f97316',
+          marginBottom: '15px'
+        }}
+      >
+        Mohit Yadav
+      </h3>
+
+      <p
+        style={{
+          color: '#a1a1aa',
+          fontSize: '1.2rem',
+          lineHeight: '1.8',
+          maxWidth: '650px',
+          margin: '0 auto 30px auto'
+        }}
+      >
+        Welcome to <strong>QuickBuy</strong> — a modern MERN Stack
+        E-Commerce platform developed by Mohit Yadav.
+        <br /><br />
+        This platform is built to provide a smooth online shopping
+        experience with secure authentication, Razorpay payments,
+        Cloudinary image uploads, admin dashboard, and responsive UI.
       </p>
 
-      <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '10px', marginTop: '20px' }}>
-        <a href="https://theshivanshvasu.com" target="_blank" rel="noreferrer" style={socialBtnStyle}>🌐 Website</a>
-        <a href="https://youtube.com/@shivanshvasu" target="_blank" rel="noreferrer" style={{ ...socialBtnStyle, background: 'rgba(239, 68, 68, 0.2)', borderColor: '#ef4444', color: '#ef4444' }}>📺 YouTube</a>
-        <a href="https://instagram.com/theshivanshvasuofficial" target="_blank" rel="noreferrer" style={{ ...socialBtnStyle, background: 'rgba(236, 72, 153, 0.2)', borderColor: '#ec4899', color: '#ec4899' }}>📸 Instagram</a>
-        <a href="https://www.linkedin.com/in/theshivanshvasu" target="_blank" rel="noreferrer" style={{ ...socialBtnStyle, background: 'rgba(59, 130, 246, 0.2)', borderColor: '#3b82f6', color: '#3b82f6' }}>💼 LinkedIn</a>
-        <a href="https://x.com/theshivanshvasu" target="_blank" rel="noreferrer" style={socialBtnStyle}>✖️ X (Twitter)</a>
-        <a href="https://whatsapp.com/channel/0029VbAWGE5ICVfcjjKTAS0B" target="_blank" rel="noreferrer" style={{ ...socialBtnStyle, background: 'rgba(16, 185, 129, 0.2)', borderColor: '#10b981', color: '#10b981' }}>💬 WhatsApp</a>
-        <a href="https://linktr.ee/shivanshvasu" target="_blank" rel="noreferrer" style={socialBtnStyle}>🔗 Linktree</a>
+      <div
+        style={{
+          display: 'flex',
+          flexWrap: 'wrap',
+          justifyContent: 'center',
+          gap: '10px',
+          marginTop: '20px'
+        }}
+      >
+        <a
+          href="https://github.com/Mohit-Yyadav"
+          target="_blank"
+          rel="noreferrer"
+          style={socialBtnStyle}
+        >
+          💻 GitHub
+        </a>
+
+        <a
+          href="https://www.linkedin.com"
+          target="_blank"
+          rel="noreferrer"
+          style={{
+            ...socialBtnStyle,
+            background: 'rgba(59, 130, 246, 0.2)',
+            borderColor: '#3b82f6',
+            color: '#3b82f6'
+          }}
+        >
+          💼 LinkedIn
+        </a>
+
+        <a
+          href="https://instagram.com"
+          target="_blank"
+          rel="noreferrer"
+          style={{
+            ...socialBtnStyle,
+            background: 'rgba(236, 72, 153, 0.2)',
+            borderColor: '#ec4899',
+            color: '#ec4899'
+          }}
+        >
+          📸 Instagram
+        </a>
+
+        <a
+          href="mailto:omnirental.team@gmail.com"
+          style={{
+            ...socialBtnStyle,
+            background: 'rgba(249,115,22,0.15)',
+            borderColor: '#f97316',
+            color: '#f97316'
+          }}
+        >
+          ✉️ Contact
+        </a>
       </div>
     </div>
   );
